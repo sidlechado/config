@@ -3,12 +3,11 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/sid/.oh-my-zsh"
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-export ANDROID_HOME=~/Android/Sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+### ALIASES ###
+alias code="code-insiders"
+alias i3config="code /etc/regolith/i3/config"
+alias zshconfig="code ~/.zshrc"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
