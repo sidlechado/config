@@ -8,6 +8,7 @@ export ZSH="/home/sid/.oh-my-zsh"
 alias code="code-insiders"
 alias i3config="code /etc/regolith/i3/config"
 alias zshconfig="code ~/.zshrc"
+alias cbranch="git branch | grep -vE '(master|dev|qa|uat|staging)' | xargs git branch -D && git fetch -p"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
